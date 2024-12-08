@@ -1,5 +1,5 @@
-## ACM SIGMOD 2018 Programming Contest
-In-memory, multi-core evaluation of batched SPJA (selection-projection-join-aggregation) queries
-on a predefined set of immutable relations using hash joins. ([official contest site](https://db.in.tum.de/sigmod18contest/index.shtml) for more)
+My solution for the [2018 ACM SIGMOD programming contest](https://transactional.blog/sigmod-contest/2018).
 
-The solution uses Intel's [Thread Building Blocks](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html).
+Depends on [oneTBB](https://www.intel.com/content/www/us/en/developer/tools/oneapi/onetbb.html) for task-based parallelism.
+
+It was awarded the [6th place](https://db.in.tum.de/sigmod18contest/leaders.shtml#:~:text=Turing).
